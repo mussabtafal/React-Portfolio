@@ -38,10 +38,15 @@ const About = () => {
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illo
-            amet, accusamus repellat harum eos mollitia veniam impedit dolores
-            repellendus? Molestias unde quam, officiis ducimus aspernatur labore
-            consectetur nemo ipsum!
+            As an experienced engineer in multiple fields with a lifelong
+            passion for technology, software, and web development, I thrive on
+            challenges and excel in rapidly mastering new skills. With a
+            relentless drive for learning and a firm belief in the power of
+            determination, I am wholeheartedly pursuing my dream job in Software
+            development. My proven ability to quickly adapt and
+            self-sufficiently navigate new territories positions me as a
+            valuable asset in this dynamic field, where I am eager to make
+            impactful contributions and push the boundaries of innovation.
           </p>
 
           <a href="#contact" className="btn btn-primary">

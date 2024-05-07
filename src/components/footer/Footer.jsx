@@ -15,22 +15,22 @@ const Footer = () => {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#About">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#Experience">Experience</a>
+          <a href="#experience">Experience</a>
         </li>
         <li>
-          <a href="#Services">Services</a>
+          <a href="#services">Services</a>
         </li>
         <li>
-          <a href="#Portfolio">Portfolio</a>
+          <a href="#portfolio">Portfolio</a>
         </li>
         <li>
-          <a href="#Testimonials">Testimonials</a>
+          <a href="#testimonials">Testimonials</a>
         </li>
         <li>
-          <a href="#Contact">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
 
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Mussab A. Taffal. All rights reserved 2024.</small>
+        <small>&copy; Mussab A. Taffal. All rights reserved 2030.</small>
       </div>
     </footer>
   );

@@ -30,7 +30,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar one" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">Mahmoud Khweis</h5>
           <small className="client__review">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
             fugit libero similique possimus voluptates provident, quo neque fuga
@@ -42,7 +42,7 @@ const Testimonials = () => {
           <div className="client__avatar">
             <img src={AVTR1} alt="Avatar one" />
           </div>
-          <h5 className="client__name">Ernest Achiever</h5>
+          <h5 className="client__name">Rasha Bazbaz</h5>
           <small className="client__review">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
             fugit libero similique possimus voluptates provident, quo neque fuga
