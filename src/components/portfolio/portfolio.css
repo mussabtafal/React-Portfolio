@@ -20,7 +20,6 @@
 
 .portfolio__item-image {
   border-radius: 1.5rem;
-  height: 60%;
   overflow: hidden;
 }
 
@@ -35,8 +34,8 @@
 }
 
 .lock-icon {
-  margin-top: 1rem;
-  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
   color: var(--color-primary-variant);
 }
 
@@ -50,9 +49,15 @@
 .technologies {
   display: flex;
   gap: 1rem;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   color: var(--color-light);
   margin-bottom: 2rem;
+}
+
+.unclickable {
+  background: var(--color-light);
+  border: none;
+  pointer-events: none; /* Disable pointer events */
 }
 
 /* ============= MEDIA QUERRES (MEDIUM QUERRIES) ============== */

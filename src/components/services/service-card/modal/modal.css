@@ -10,7 +10,6 @@
   color: var(--color-white);
   box-shadow: 1px 1px 10px var(--color-white);
   animation: slide-in-from-top 0.2s ease-out;
-
 }
 
 .testModal::backdrop {
@@ -26,15 +25,19 @@
   margin-bottom: 2rem;
 }
 
-.testModal ul li{
+.testModal ul li {
   list-style: disc;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
 }
 
 .cross-icon {
   background-color: transparent;
   text-align: right;
   font-size: 1.5rem;
+}
+
+.cross-icon:hover {
+  color: var(--color-white);
 }
 
 @keyframes slide-in-from-top {
@@ -52,6 +55,6 @@
 
 @media screen and (max-width: 600px) {
   .testModal {
-    font-size: 0.7rem
+    font-size: 0.7rem;
   }
 }
