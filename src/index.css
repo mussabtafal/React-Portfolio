@@ -25,6 +25,21 @@
   --container-width-sm: 90%;
 }
 
+/* :root {
+  --color-bg: #f3f4f8;
+  --color-bg-variant: #5b5d6b;
+  --color-primary: #101223;
+  --color-primary-variant: #282a3a69;
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.408);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+} */
+
 html {
   scroll-behavior: smooth;
 }
@@ -38,7 +53,7 @@ body {
   background-color: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
+  /* background-image: url(../src/assets/bg-texture.png); */
 }
 
 /* ============== GENERAL STYLES =============== */

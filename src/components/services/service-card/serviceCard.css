@@ -1,32 +1,33 @@
 .service__card {
-    background: var(--color-bg-variant);
-    padding: 3rem;
-    border: 1px solid transparent;
-    border-radius: 2rem;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  background: var(--color-bg-variant);
+  padding: 3rem;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 .service__card:hover {
-    background: transparent;
-    transition: var(--transition);
-    padding: 3rem;
-    border-radius: 2rem;
-    border-color: var(--color-primary-variant);
+  background: transparent;
+  transition: var(--transition);
+  padding: 3rem;
+  border-radius: 2rem;
+  border-color: var(--color-primary-variant);
 }
 
 .view-more {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    cursor: pointer;
-    color: var(--color-light);
-    transition: var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  color: var(--color-light);
+  transition: var(--transition);
 }
 
-.view-more:hover {
-    color: var(--color-primary);
+.service__card:hover .view-more {
+  color: var(--color-primary);
+  transform: scale(1.1) translateY(50%) translateX(4%);
 }
 
 .view-arrow {
-    font-size: 1rem;
+  font-size: 1rem;
 }

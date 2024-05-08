@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "../src/components/header/Header";
 import Nav from "../src/components/nav/Nav";
 import About from "../src/components/about/About";
+import Journey from "../src/components/journey/Journey";
 import Experience from "./components/experience/Experience";
 import Services from "./components/services/Services";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -15,6 +16,7 @@ function App() {
       <Header />
       <Nav />
       <About />
+      <Journey />
       <Experience />
       <Services />
       <Portfolio />

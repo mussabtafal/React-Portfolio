@@ -13,9 +13,14 @@
   transition: var(--transition);
 }
 
+.portfolio__item:hover .portfolio__item-image img {
+  transition: var(--transition);
+  transform: scale(1.1);
+}
 .portfolio__item:hover {
   border-color: var(--color-primary-variant);
   background: transparent;
+  transform: translateY(-3%);
 }
 
 .portfolio__item-image {
