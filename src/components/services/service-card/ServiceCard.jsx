@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import "../service-card/serviceCard.css";
 import Modal from "./modal/Modal";
 
 const ServiceCard = ({ icon, title, services }) => {
@@ -12,12 +13,15 @@ const ServiceCard = ({ icon, title, services }) => {
   return (
     <>
       <Modal ref={dialog} services={services} />
-      <div>
+      <div className="service__card">
         {icon}
         <h3>{title}</h3>
-        <span onClick={handleModal}>
-          View More <FaLongArrowAltRight />
-        </span>
+        <div className="view-more" onClick={handleModal}>
+          <span>
+            View More
+          </span>
+          <FaLongArrowAltRight className="view-arrow" />
+        </div>
       </div>
     </>
   );

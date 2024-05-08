@@ -50,6 +50,7 @@ header {
   border-radius: 5rem 0 5rem 0;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem 1.5rem;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 /* =================== SCROLL DOWN ==================== */

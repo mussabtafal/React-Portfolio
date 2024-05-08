@@ -17,6 +17,7 @@
   border-radius: 1.2rem;
   text-align: center;
   border: 1px solid transparent;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   transition: var(--transition);
 }
 

@@ -41,6 +41,8 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  transition: var(--transition);
 }
 
 .about_card:hover {

@@ -9,6 +9,7 @@
   padding: 1.3rem;
   border-radius: 2rem;
   border: 1px solid transparent;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
   transition: var(--transition);
 }
 
@@ -19,6 +20,7 @@
 
 .portfolio__item-image {
   border-radius: 1.5rem;
+  height: 60%;
   overflow: hidden;
 }
 
@@ -30,6 +32,19 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 1rem;
+}
+
+.lock-icon {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: var(--color-primary-variant);
+}
+
+.plus-icon {
+  color: var(--color-primary-variant);
+  font-size: 4rem;
+  align-self: center;
+  justify-self: center;
 }
 
 /* ============= MEDIA QUERRES (MEDIUM QUERRIES) ============== */

@@ -108,7 +108,11 @@
 
 import React from "react";
 import ServiceCard from "./service-card/ServiceCard";
+import "../services/services.css";
+
 import { MdWeb } from "react-icons/md";
+import { SiAltiumdesigner } from "react-icons/si";
+import { MdEngineering } from "react-icons/md";
 
 const Services = () => {
   return (
@@ -117,8 +121,18 @@ const Services = () => {
       <h2>Services</h2>
       <div className="container services__container">
         <ServiceCard
-          icon={<MdWeb />}
+          icon={<MdWeb className="service__icon"/>}
           title="Web Development"
+          services={["test", "test1", "test2"]}
+        />
+        <ServiceCard
+          icon={<SiAltiumdesigner className="service__icon"/>}
+          title="UI/UX"
+          services={["test3", "test4", "test5"]}
+        />
+        <ServiceCard
+          icon={<MdEngineering className="service__icon"/>}
+          title="Engineering"
           services={["test", "test1", "test2"]}
         />
       </div>

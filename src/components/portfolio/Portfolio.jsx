@@ -1,4 +1,7 @@
 import React from "react";
+import PortfolioCard from "./components/PortfolioCard";
+import { FaPlus } from "react-icons/fa";
+
 import "../portfolio/portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
@@ -14,114 +17,12 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
-              target="_blank"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
-              target="_blank"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
-              target="_blank"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
-              target="_blank"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
-              target="_blank"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
-        <article className="portfolio__item">
-          <div className="portfolio__item-image">
-            <img src={IMG1} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className="btn">
-              Github
-            </a>
-            <a
-              href="https://dribble.com"
-              target="_blank"
-              className="btn btn-primary"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
+        <PortfolioCard image={IMG1} title={"JobPal"} github={"https://github.com/mussabtafal/Jobpal_Project"} link={"https://www.jobpal.work"}/>
+        <PortfolioCard image={IMG1} title={"OmniFoods"} github={"https://github.com/mussabtafal/OmniFoods_Project"} link={"https://omnifood-mussab.netlify.app/"}/>
+        <PortfolioCard image={IMG1} title={"O-Connect"} github={"https://www.onpassive.com/"} link={"https://www.onpassive.com/"}/>
+        <PortfolioCard image={IMG1} title={"Aerdata Asset Management Solution"} github={"#"} link={"#"} disabled/>
+        <PortfolioCard image={IMG1} title={"Doctors Commuinity"} github={"www.google.com"} link={"www.google.com"}/>
+        <FaPlus className="plus-icon"/>
       </div>
     </section>
   );
