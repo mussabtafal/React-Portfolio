@@ -17,11 +17,11 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-        <PortfolioCard image={IMG1} title={"JobPal"} github={"https://github.com/mussabtafal/Jobpal_Project"} link={"https://www.jobpal.work"}/>
-        <PortfolioCard image={IMG1} title={"OmniFoods"} github={"https://github.com/mussabtafal/OmniFoods_Project"} link={"https://omnifood-mussab.netlify.app/"}/>
-        <PortfolioCard image={IMG1} title={"O-Connect"} github={"https://www.onpassive.com/"} link={"https://www.onpassive.com/"}/>
-        <PortfolioCard image={IMG1} title={"Aerdata Asset Management Solution"} github={"#"} link={"#"} disabled/>
-        <PortfolioCard image={IMG1} title={"Doctors Commuinity"} github={"www.google.com"} link={"www.google.com"}/>
+        <PortfolioCard image={IMG1} title={"JobPal"} technologies={["Python", "Django", "HTML", "CSS", "JavaScript"]} github={"https://github.com/mussabtafal/Jobpal_Project"} link={"https://www.jobpal.work"}/>
+        <PortfolioCard image={IMG1} title={"OmniFoods"} technologies={["HTML", "CSS", "JavaScript", "nodeJS", "MongoDB"]}  github={"https://github.com/mussabtafal/OmniFoods_Project"} link={"https://omnifood-mussab.netlify.app/"}/>
+        <PortfolioCard image={IMG1} title={"O-Connect"} technologies={["React", "nodeJS", "HTML", "CSS", "JavaScript"]}  github={"https://www.onpassive.com/"} link={"https://www.onpassive.com/"}/>
+        <PortfolioCard image={IMG1} title={"Aerdata Asset Management Solution"} technologies={["C#", "ASP.net", "Angular", "JavaScript", "SQL Server"]}  github={"#"} link={"#"} disabled/>
+        <PortfolioCard image={IMG1} title={"Doctors Commuinity"} technologies={["Java", "Spring boot", "HTML", "CSS", "JavaScript"]}  github={"www.google.com"} link={"www.google.com"}/>
         <FaPlus className="plus-icon"/>
       </div>
     </section>

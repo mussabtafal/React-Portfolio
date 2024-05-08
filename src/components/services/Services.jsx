@@ -115,25 +115,53 @@ import { SiAltiumdesigner } from "react-icons/si";
 import { MdEngineering } from "react-icons/md";
 
 const Services = () => {
+  const webDevServices = [
+    "Custom website design and development",
+    "Development of web-based applications tailored to specific business needs",
+    "Regular updates and maintenance to ensure website security and performance",
+    "Troubleshooting and bug fixing",
+    "Assistance with content creation, including copywriting and multimedia production",
+    "Consultation and Training",
+    "Guidance and advice on technology choices and best practices",
+  ];
+  const uiUxServices = [
+    "Conducting user interviews, surveys, and usability testing to understand user needs and preferences.",
+    "Developing low-fidelity wireframes to outline the structure and layout of the interface.",
+    "Designing visually appealing interfaces that align with brand identity and user expectations.",
+    "Designing intuitive and efficient user workflows and interactions.",
+    "Designing interactive elements and animations to enhance user engagement.",
+    "Organizing content and navigation structures to facilitate easy access to information.",
+    "Creating visually appealing layouts, color schemes, and typography choices.",
+  ];
+  const engineeringServices = [
+    "Designing database structures, creating schemas, writing queries, and managing databases using technologies like SQL or NoSQL databases.",
+    "Ensuring the quality and reliability of software through various testing techniques, including unit testing, integration testing, and user acceptance testing.",
+    "Following agile methodologies like Scrum or Kanban to manage software development projects, emphasizing iterative development, collaboration, and flexibility.",
+    "Software maintenance and support",
+    "Technical documentation",
+    "Research and development",
+    "Education and training",
+  ];
+
   return (
     <section id="services">
       <h5>What I Offer</h5>
       <h2>Services</h2>
       <div className="container services__container">
         <ServiceCard
-          icon={<MdWeb className="service__icon"/>}
+          icon={<MdWeb className="service__icon" />}
           title="Web Development"
-          services={["test", "test1", "test2"]}
+          services={webDevServices}
         />
         <ServiceCard
-          icon={<SiAltiumdesigner className="service__icon"/>}
+          icon={<SiAltiumdesigner className="service__icon" />}
           title="UI/UX"
-          services={["test3", "test4", "test5"]}
+          services={uiUxServices}
         />
         <ServiceCard
-          icon={<MdEngineering className="service__icon"/>}
+          icon={<MdEngineering className="service__icon" />}
           title="Engineering"
-          services={["test", "test1", "test2"]}
+          services={engineeringServices}
         />
       </div>
     </section>

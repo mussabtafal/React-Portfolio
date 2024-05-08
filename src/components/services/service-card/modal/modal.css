@@ -1,11 +1,16 @@
 .testModal {
+  width: 50%;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 2rem;
+  padding: 2rem 3rem 3rem 4rem;
   border-radius: 2rem;
-  background: var(--color-primary);
+  background: var(--color-bg-variant);
+  color: var(--color-white);
+  box-shadow: 1px 1px 10px var(--color-white);
+  animation: slide-in-from-top 0.2s ease-out;
+
 }
 
 .testModal::backdrop {
@@ -15,4 +20,38 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.testModal h2 {
+  margin-bottom: 2rem;
+}
+
+.testModal ul li{
+  list-style: disc;
+  margin-bottom: 1rem
+}
+
+.cross-icon {
+  background-color: transparent;
+  text-align: right;
+  font-size: 1.5rem;
+}
+
+@keyframes slide-in-from-top {
+  0% {
+    transform: translate(-50%, -80%);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+/* ============= MEDIA QUERRES (SMALL QUERRIES) ============== */
+
+@media screen and (max-width: 600px) {
+  .testModal {
+    font-size: 0.7rem
+  }
 }

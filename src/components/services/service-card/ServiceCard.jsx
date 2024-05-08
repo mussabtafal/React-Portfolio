@@ -12,7 +12,7 @@ const ServiceCard = ({ icon, title, services }) => {
 
   return (
     <>
-      <Modal ref={dialog} services={services} />
+      <Modal ref={dialog} title={title} services={services} />
       <div className="service__card">
         {icon}
         <h3>{title}</h3>

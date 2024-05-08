@@ -25,7 +25,7 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0 2rem;
+  margin: 1.2rem 0 0.5rem;
 }
 
 .portfolio__item-cta {
@@ -45,6 +45,14 @@
   font-size: 4rem;
   align-self: center;
   justify-self: center;
+}
+
+.technologies {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.8rem;
+  color: var(--color-light);
+  margin-bottom: 2rem;
 }
 
 /* ============= MEDIA QUERRES (MEDIUM QUERRIES) ============== */
