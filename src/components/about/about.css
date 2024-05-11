@@ -1,6 +1,6 @@
 .about_container {
   display: grid;
-  grid-template-columns: 35% 50%;
+  grid-template-columns: 50% 35%;
   gap: 15%;
 }
 
@@ -16,6 +16,7 @@
   );
   display: grid;
   place-items: center;
+  order: 1;
 }
 
 .about_me-image {
@@ -81,6 +82,7 @@
   .about_me {
     width: 50%;
     margin: 2rem auto 4rem;
+    order: 0;
   }
 
   .about_content {
