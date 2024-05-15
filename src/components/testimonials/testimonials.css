@@ -1,6 +1,7 @@
 .container.testimonials__container {
-  width: 40%;
+  width: 45%;
   padding-bottom: 4rem;
+  z-index: 20;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -23,6 +24,13 @@
   border-radius: 2rem;
   user-select: none;
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.testimonial:hover {
+  background: transparent;
+  border: 0.5px solid var(--color-primary);
+  transition: var(--transition);
+  color: var(--color-primary);
 }
 
 .client__review {

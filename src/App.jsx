@@ -9,10 +9,12 @@ import Portfolio from "./components/portfolio/Portfolio";
 import Testimonials from "./components/testimonials/Testimonials";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
+import { ParticlesComponent } from "./components/particlesJs/particles";
 
 function App() {
   return (
     <>
+      <ParticlesComponent id="absorbers" />
       <Header />
       <Nav />
       <About />

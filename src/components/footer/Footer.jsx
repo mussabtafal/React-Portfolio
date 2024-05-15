@@ -11,34 +11,34 @@ const Footer = () => {
         Mussab A. Taffal
       </a>
       <ul className="permalinks">
-        <li>
+        <li className="permalinks-anchor">
           <a href="#">Home</a>
         </li>
-        <li>
+        <li className="permalinks-anchor">
           <a href="#about">About</a>
         </li>
-        <li>
+        <li className="permalinks-anchor">
           <a href="#experience">Experience</a>
         </li>
-        <li>
+        <li className="permalinks-anchor">
           <a href="#services">Services</a>
         </li>
-        <li>
+        <li className="permalinks-anchor">
           <a href="#portfolio">Portfolio</a>
         </li>
-        <li>
+        <li className="permalinks-anchor">
           <a href="#testimonials">Testimonials</a>
         </li>
-        <li>
+        <li className="permalinks-anchor">
           <a href="#contact">Contact</a>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
+        <a href="https://www.facebook.com/mussab.tafal/">
           <FaFacebookF />
         </a>
-        <a href="https://instagram.com">
+        <a href="https://www.instagram.com/mussabtafal/">
           <FiInstagram />
         </a>
         <a href="https://twitter.com">

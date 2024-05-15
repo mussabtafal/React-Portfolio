@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../journey/journey.css";
 
 const Journey = () => {
+  const [toggle, setToggle] = useState(1);
+
+  const toggleTab = (index) => {
+    setToggle(index);
+  };
+
   return (
     <section id="journey" className="container">
       <h5>Glimpse About My</h5>
@@ -9,20 +15,41 @@ const Journey = () => {
 
       <div className="qualification__container">
         <div className="journey__tabs">
-          <div className="qualification__button button--flex">
+          <div
+            className={
+              toggle === 1
+                ? "qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(1)}
+          >
             <i className="uil uil-graduation-cap qualification__icon"></i>{" "}
             Education
           </div>
-          <div className="qualification__button button--flex">
+          <div
+            className={
+              toggle === 0
+                ? "qualification__active button--flex"
+                : "qualification__button button--flex"
+            }
+            onClick={() => toggleTab(0)}
+          >
             <i className="uil uil-briefcase-alt qualification__icon"></i>{" "}
             Experience
           </div>
         </div>
-        <div className="qualification__content">
+
+        <div
+          className={
+            toggle === 1
+              ? "qualification__content-active"
+              : "qualification__content"
+          }
+        >
           <div className="qualification__sections">
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
+                <h3 className="qualification__title">Education Designer</h3>
                 <span className="qualification__subtitle">Test dummy data</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i> 2021 - present
@@ -34,7 +61,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -51,7 +78,7 @@ const Journey = () => {
                 </div>
               </div>
             </div>
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">
@@ -68,11 +95,11 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
-                <span className="qualification__line"> Test dummy data</span>
+                <span className="qualification__line"></span>
               </div>
               <div>
                 <h3 className="qualification__title">UX Expert</h3>
@@ -86,10 +113,18 @@ const Journey = () => {
               </div>
             </div>
           </div>
-          <div className="qualification__content">
-            <div className="qualification_data">
+        </div>
+        <div
+          className={
+            toggle === 0
+              ? "qualification__content-active"
+              : "qualification__content"
+          }
+        >
+          <div className="qualification__sections">
+            <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
+                <h3 className="qualification__title">Experience Designer</h3>
                 <span className="qualification__subtitle">
                   {" "}
                   Test dummy data
@@ -104,7 +139,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -121,7 +156,7 @@ const Journey = () => {
                 </div>
               </div>
             </div>
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Web Developer</h3>
                 <span className="qualification__subtitle">
@@ -138,7 +173,7 @@ const Journey = () => {
               </div>
             </div>
 
-            <div className="qualification_data">
+            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>

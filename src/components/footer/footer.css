@@ -7,7 +7,7 @@ footer {
 }
 
 footer a {
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 .footer__logo {
@@ -23,6 +23,18 @@ footer a {
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.permalinks-anchor:hover {
+  color: var(--color-primary);
 }
 
 .footer__socials {
@@ -43,13 +55,13 @@ footer a {
 
 .footer__socials a:hover {
   background: transparent;
-  color: var(--color-bg);
+  color: var(--color-primary);
   border-color: var(--color-bg);
 }
 
 .footer__copyright {
   margin-bottom: 4rem;
-  color: var(--color-bg);
+  color: var(--color-white);
 }
 
 /* ============= MEDIA QUERRES (SMALL QUERRIES) ============== */
