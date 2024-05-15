@@ -1,7 +1,7 @@
 .container.testimonials__container {
   width: 45%;
   padding-bottom: 4rem;
-  z-index: 20;
+  z-index: 10;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
