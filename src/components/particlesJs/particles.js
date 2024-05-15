@@ -33,7 +33,7 @@ export const ParticlesComponent = () => {
       name: "Absorbers",
       particles: {
         number: {
-          value: 100,
+          value: 80,
         },
         collisions: {
           enable: true,
@@ -58,9 +58,9 @@ export const ParticlesComponent = () => {
         },
         move: {
           enable: true,
-          speed: 0.9,
-          direction: "top",
-          straight: true,
+          speed: 0.6,
+          direction: "right",
+          straight: false,
           warp: true,
         },
       },
@@ -73,7 +73,7 @@ export const ParticlesComponent = () => {
         },
         modes: {
           push: {
-            quantity: 10,
+            quantity: 3,
           },
         },
       },
