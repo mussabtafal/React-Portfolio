@@ -62,14 +62,14 @@ const Experience = () => {
               <FaAngular className="experience__details-icon" />
               <div>
                 <h4>Angular</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
               <LiaReact className="experience__details-icon" />
               <div>
                 <h4>React</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>
@@ -93,7 +93,7 @@ const Experience = () => {
               <div>
                 <h4>C#</h4>
                 <p>ASP.net</p>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
@@ -111,7 +111,7 @@ const Experience = () => {
               <TbBrandMysql className="experience__details-icon" />
               <div>
                 <h4>MySQL</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="experience__details">
