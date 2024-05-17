@@ -32,34 +32,19 @@ const Testimonials = () => {
           </div>
           <h5 className="client__name">Mahmoud Khweis</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            fugit libero similique possimus voluptates provident, quo neque fuga
-            eius vel at odio praesentium sit expedita nulla modi iusto
-            accusantium deserunt!
+            Mussab is up to any challenge, and he deserves the best, he achieved
+            a remarkable project in a short amount of time.
           </small>
         </SwiperSlide>
         <SwiperSlide className="testimonial">
           <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar one" />
+            <img src={AVTR2} alt="Avatar one" />
           </div>
           <h5 className="client__name">Rasha Bazbaz</h5>
           <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            fugit libero similique possimus voluptates provident, quo neque fuga
-            eius vel at odio praesentium sit expedita nulla modi iusto
-            accusantium deserunt!
-          </small>
-        </SwiperSlide>
-        <SwiperSlide className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar one" />
-          </div>
-          <h5 className="client__name">Ernest Achiever</h5>
-          <small className="client__review">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            fugit libero similique possimus voluptates provident, quo neque fuga
-            eius vel at odio praesentium sit expedita nulla modi iusto
-            accusantium deserunt!
+            Being a trainer, mentor or team leader is a great opportunity to
+            meet great people with great potential ... Mussab A. Taffal is a
+            great example with his nice attitude and ability to learn
           </small>
         </SwiperSlide>
       </Swiper>
