@@ -11,26 +11,45 @@ const Footer = () => {
         Mussab A. Taffal
       </a>
       <ul className="permalinks">
-        <li className="permalinks-anchor">
-          <a href="#">Home</a>
+        <li>
+          <a className="permalinks-anchor" href="#">
+            Home
+          </a>
         </li>
-        <li className="permalinks-anchor">
-          <a href="#about">About</a>
+        <li>
+          <a className="permalinks-anchor" href="#about">
+            About
+          </a>
         </li>
-        <li className="permalinks-anchor">
-          <a href="#experience">Experience</a>
+        <li>
+          <a className="permalinks-anchor" href="#journey">
+            Journey
+          </a>
         </li>
-        <li className="permalinks-anchor">
-          <a href="#services">Services</a>
+        <li>
+          <a className="permalinks-anchor" href="#experience">
+            Experience
+          </a>
         </li>
-        <li className="permalinks-anchor">
-          <a href="#portfolio">Portfolio</a>
+        <li>
+          <a className="permalinks-anchor" href="#services">
+            Services
+          </a>
         </li>
-        <li className="permalinks-anchor">
-          <a href="#testimonials">Testimonials</a>
+        <li>
+          <a className="permalinks-anchor" href="#portfolio">
+            Portfolio
+          </a>
         </li>
-        <li className="permalinks-anchor">
-          <a href="#contact">Contact</a>
+        <li>
+          <a className="permalinks-anchor" href="#testimonials">
+            Testimonials
+          </a>
+        </li>
+        <li>
+          <a className="permalinks-anchor" href="#contact">
+            Contact
+          </a>
         </li>
       </ul>
 

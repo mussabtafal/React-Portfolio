@@ -25,14 +25,6 @@ footer a {
   margin: 0 auto 3rem;
 }
 
-.permalinks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin: 0 auto 3rem;
-}
-
 .permalinks-anchor:hover {
   color: var(--color-primary);
 }
@@ -60,6 +52,7 @@ footer a {
 }
 
 .footer__copyright {
+  position: relative;
   margin-bottom: 4rem;
   color: var(--color-white);
 }

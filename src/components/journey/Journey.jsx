@@ -49,10 +49,12 @@ const Journey = () => {
           <div className="qualification__sections">
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Education Designer</h3>
-                <span className="qualification__subtitle">Test dummy data</span>
+                <h3 className="qualification__title">Axsos Academy Bootcamp</h3>
+                <span className="qualification__subtitle">
+                  Ramallah - Westbank, Palestine
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
               <div>
@@ -68,48 +70,33 @@ const Journey = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  An-Najah National University
+                </h3>
                 <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
+                  Bachelor in the Science of Engineering
+                </span>
+                <span className="qualification__subtitleTwo">
+                  Nablus - Westbank, Palestine
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
+                  <i className="uil uil-calendar-alt"></i> 2014 - 2018
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">Al Fadiliya Highschool</h3>
                 <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
+                  Tulkarm - Westbank, Palestine
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
+                  <i className="uil uil-calendar-alt"></i> 2013 - 2014
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
-                </div>
               </div>
             </div>
           </div>
@@ -124,13 +111,12 @@ const Journey = () => {
           <div className="qualification__sections">
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Experience Designer</h3>
+                <h3 className="qualification__title">Software Engineer</h3>
                 <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
+                  OnPassive Technologies LLC.
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
+                  <i className="uil uil-calendar-alt"></i> 2023 - present
                 </div>
               </div>
               <div>
@@ -146,48 +132,30 @@ const Journey = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
+                <h3 className="qualification__title">
+                  Software Engineer - Team lead
+                </h3>
                 <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
+                  Procure Software and Logistic Services
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
+                  <i className="uil uil-calendar-alt"></i> 2022 - 2023
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">Full Stack Developer</h3>
                 <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
+                  AppiaTech Software Services
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
+                  <i className="uil uil-calendar-alt"></i> 2021 - 2022
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            <div className="qualification__data">
-              <div></div>
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-              <div>
-                <h3 className="qualification__title">UX Expert</h3>
-                <span className="qualification__subtitle">
-                  {" "}
-                  Test dummy data
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calendar-alt"></i> 2021 - present
-                </div>
               </div>
             </div>
           </div>

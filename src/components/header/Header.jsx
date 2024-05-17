@@ -3,6 +3,7 @@ import "../header/header.css";
 import CTA from "../header/CTA";
 import HeaderSocials from "./HeaderSocials";
 import { TypeAnimation } from "react-type-animation";
+import { CiDesktopMouse2 } from "react-icons/ci";
 
 const Header = () => {
   return (
@@ -34,6 +35,7 @@ const Header = () => {
         <HeaderSocials />
 
         <a href="#contact" className="scroll_down">
+          <CiDesktopMouse2 className="mouse-icon" />
           Scroll Down
         </a>
       </div>

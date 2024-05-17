@@ -5,6 +5,7 @@ import { AiOutlineUser } from "react-icons/ai";
 import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { BiMessageSquareDetail } from "react-icons/bi";
+import { PiPath } from "react-icons/pi";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
@@ -28,6 +29,15 @@ const Nav = () => {
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
+      </a>
+      <a
+        href="#journey"
+        onClick={() => {
+          setActiveNav("#journey");
+        }}
+        className={activeNav === "#journey" ? "active" : ""}
+      >
+        <PiPath />
       </a>
       <a
         href="#experience"

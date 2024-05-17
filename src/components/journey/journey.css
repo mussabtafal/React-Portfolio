@@ -64,8 +64,14 @@
 .qualification__subtitle {
   display: inline-block;
   color: var(--color-light);
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   margin-bottom: 1rem;
+}
+
+.qualification__subtitleTwo {
+  display: inline-block;
+  color: var(--color-light);
+  font-size: 0.8rem;
 }
 
 .qualification__calendar {
